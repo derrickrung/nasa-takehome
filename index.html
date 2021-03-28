@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Telemetry server</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="telemetry-container">
+      <h1>Telemetry Points</h1>
+      <button class="pwr-v selected">pwr.v</button>
+      <button class="pwr-c selected">pwr.c</button>
+    </div>
+    <table>
+      <thead>
+        <th>ID</th>
+        <th class="timestamp">
+          Timestamp
+          <span id="caret">&#9650;</span>
+        </th>
+        <th>Value</th>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <script src="scripts/fetch.js"></script>
+    <script src="scripts/helpers.js"></script>
+    <script src="scripts/handlers.js"></script>
+    <script src="scripts/ui.js"></script>
+    <script src="scripts/socket.js"></script>
+    <script src="scripts/state.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

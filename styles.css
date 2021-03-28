@@ -1,0 +1,72 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.telemetry-container {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+button {
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  color: rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 16px 24px;
+  text-transform: uppercase;
+  transition: all 0.5s linear;
+}
+
+button:first-of-type {
+  margin-right: 16px;
+}
+
+button:hover {
+  filter: brightness(0.8);
+}
+
+button.selected {
+  background-color: #1976d2;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin: auto;
+  text-align: left;
+}
+
+th {
+  background-color: #707bd9;
+  color: white;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  min-width: 250px;
+  padding: 10px 15px;
+}
+
+th.timestamp {
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+#caret {
+  display: inline-block;
+  font-size: 12px;
+  transition: transform 0.5s;
+}
+
+#caret.desc {
+  transform: rotate(180deg);
+}
