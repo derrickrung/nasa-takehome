@@ -1,5 +1,6 @@
 ## How To Run
-Open `index.html` in any browser (perferably later versions of Chrome).
+1. Download file contents.
+2. Open `index.html` in any browser (perferably later versions of Chrome).
 
 ## Notes
 - Since this was a 4 hour test, I didn't try to account for responsiveness nor cross-browser compatibility, although it should work for *most* browsers and versions. But I can revise it to account for those things if you would like.
